@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c0b480e247.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div id="navbar">
+        <img src="logo.png" alt="logo">
+        <a href="index.html" id="home3">Home</a>
+        <a href="categories.html" id="categories3">Categories</a>
+        <a href="about.html" id="about3">About</a>
+        <a href="login.html" id="login3">login|signin</a>
+    </div>
+
+    <div id="login">
+        <form id="login-form">
+            <h1>Log In</h1>
+            <div>
+            <label>E-mail:</label>
+            <input type="text">
+        </div>
+            <br>
+            <div>
+            <label>Password:</label>
+            <input type="password">
+        </div>
+            <br>
+            <div id="password">
+                <p id="anchor">forgot password</p>
+                &nbsp; &nbsp;
+                <button>login</button>
+                &nbsp; &nbsp;
+                <p id="anchor" onclick="showsignin()" style="cursor: pointer;">not registred? signup</p>
+            </div>
+            <div style="margin-bottom: 25px;">
+                <i class="fa-brands fa-twitter fa-xl"></i>
+                <i class="fa-brands fa-google fa-xl"></i>
+                <i class="fa-brands fa-facebook fa-xl"></i>
+            </div>
+        </form>
+
+    </div>
+
+    <div id="signin">
+        <from id="signin-from">
+            <h1>Signin</h1>
+            <div>
+                <label>Name:</label>
+                <input type="text" id="name">
+            </div>
+            <br>
+            <div>
+                <lable>E-mail:</lable>
+                <input type="text" id="E-mail">
+            </div>
+            <br>
+            <div>
+                <lable>Password:</lable>
+                <input type="password" id="password1">
+            </div>
+            <br>
+            <div>
+                <label>Re-type password:</label>
+                <input type="password" id="cpassword">
+            </div>
+            <br>
+            <button onclick="savedata()">Signup</button>
+            <h3 style="display: none;">Incorrect password</h3>
+        </from>
+
+    </div>
+    <div id="profile">
+        <h3 id="localname"></h3>
+        <h3 id="localemail"></h3>
+        <button onclick="logout()" style="cursor: pointer;">logout</button>
+    </div>
+    <script src="login.js"></script>
+</body>
+
+
+</html>

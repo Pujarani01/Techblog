@@ -1,0 +1,110 @@
+#navbar{
+    display: flex;
+    border: solid dodgerblue 2px;
+    background-color:  dodgerblue ;
+    color: white;
+    align-items: center;
+    justify-content: center;
+
+}
+img{
+    width: 100px;
+    height: 70px;
+    border-radius: 50px;
+}
+a:hover{
+    background-color: white;
+    color: blue;
+    height: 50px;
+    width: 120px;
+    border-radius: 20px;
+}
+a{
+    height:50px;
+    width:120px ;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
+#card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid black 2px;
+    background-color: white;
+
+}
+#tag-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tag{
+    height: 45px;
+    background-color: lightblue;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 130px;
+}
+#show-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+button{
+    height: 50px;
+    width: 120px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+h2{
+    text-align: center;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    border: solid black 2px;
+    background-color:black;
+    color: white;
+    margin-top: 35px;
+
+}
+#Request{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+input{
+    height: 30px;
+    width: 250px;
+}
+form{
+    border: solid black 2px;
+    width: 450px;
+    height: 350px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

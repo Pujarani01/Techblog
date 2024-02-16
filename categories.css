@@ -1,0 +1,29 @@
+#container1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#cat-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 170px;
+    width: 280px;
+    border: solid gray 2px;
+    box-shadow: 3px 3px 5px 3px gray;
+}
+#cat-card button{
+    height: 30px;
+    width: 150px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}
+h4{
+    font-weight:bold ;
+    font-size: 25px;
+}
+i{
+
+}
